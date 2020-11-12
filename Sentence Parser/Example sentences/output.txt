@@ -1,0 +1,263 @@
+1
+
+['holmes', 'sat']
+        S     
+   _____|___   
+  NP        VP
+  |         |  
+  N         V 
+  |         |  
+holmes     sat
+
+Noun Phrase Chunks
+2
+
+['holmes', 'lit', 'a', 'pipe']
+            S              
+   _________|___            
+  |             VP         
+  |      _______|___        
+  NP    |           NP     
+  |     |        ___|___    
+  N     V      Det      N  
+  |     |       |       |   
+holmes lit      a      pipe
+
+Noun Phrase Chunks
+3
+
+['we', 'arrived', 'the', 'day', 'before', 'thursday']
+             S                             
+  ___________|_______                       
+ |                   VP                    
+ |      _____________|__________            
+ |     |         |              PP         
+ |     |         |         _____|_____      
+ NP    |         NP       |           NP   
+ |     |      ___|___     |           |     
+ N     V    Det      N    P           N    
+ |     |     |       |    |           |     
+ we arrived the     day before     thursday
+
+Noun Phrase Chunks
+             S                                 
+  ___________|_______                           
+ |                   VP                        
+ |      _____________|___                       
+ |     |                 NP                    
+ |     |          _______|__________            
+ |     |         |                  PP         
+ |     |         |             _____|_____      
+ NP    |         NP           |           NP   
+ |     |      ___|___         |           |     
+ N     V    Det      N        P           N    
+ |     |     |       |        |           |     
+ we arrived the     day     before     thursday
+
+Noun Phrase Chunks
+4
+
+['holmes', 'sat', 'in', 'the', 'red', 'armchair', 'and', 'he', 'chuckled']
+                        S                                
+             ___________|_____________________            
+            S                        |        |          
+   _________|___                     |        |           
+  |             VP                   |        |          
+  |      _______|___                 |        |           
+  |     |           PP               |        |          
+  |     |    _______|___             |        |           
+  |     |   |           NP           |        S          
+  |     |   |    _______|_____       |     ___|_____      
+  NP    |   |   |       AP    |      |    NP        VP   
+  |     |   |   |       |     |      |    |         |     
+  N     V   P  Det     Adj    N     Conj  N         V    
+  |     |   |   |       |     |      |    |         |     
+holmes sat  in the     red armchair and   he     chuckled
+
+Noun Phrase Chunks
+5
+
+['my', 'companion', 'smiled', 'an', 'enigmatical', 'smile']
+                    S                             
+      ______________|_________                     
+     |                        VP                  
+     |               _________|_______             
+     |              |                 NP          
+     |              |      ___________|________    
+     NP             |     |           AP       |  
+  ___|______        |     |           |        |   
+Det         N       V    Det         Adj       N  
+ |          |       |     |           |        |   
+ my     companion smiled  an     enigmatical smile
+
+Noun Phrase Chunks
+6
+
+['holmes', 'chuckled', 'to', 'himself']
+                 S                 
+   ______________|___               
+  |                  VP            
+  |        __________|___           
+  |       |              PP        
+  |       |           ___|_____     
+  NP      |          |         NP  
+  |       |          |         |    
+  N       V          P         N   
+  |       |          |         |    
+holmes chuckled      to     himself
+
+Noun Phrase Chunks
+7
+
+['she', 'never', 'said', 'a', 'word', 'until', 'we', 'were', 'at', 'the', 'door', 'here']
+                                  S                                     
+            ______________________|_____________                         
+           |                      |             S                       
+           |                      |     ________|_______                 
+           S                      |    |                VP              
+  _________|____                  |    |             ___|____________    
+ |              VP                |    |            VP               |  
+ |     _________|___              |    |    ________|___             |   
+ |    |             VP            |    |   |            PP           |  
+ |    |     ________|___          |    |   |     _______|___         |   
+ NP   |    |            NP        |    NP  |    |           NP       |  
+ |    |    |         ___|___      |    |   |    |        ___|___     |   
+ N   Adv   V       Det      N    Conj  N   V    P      Det      N   Adv 
+ |    |    |        |       |     |    |   |    |       |       |    |   
+she never said      a      word until  we were  at     the     door here
+
+Noun Phrase Chunks
+8
+
+['holmes', 'sat', 'down', 'and', 'lit', 'his', 'pipe']
+                     S                   
+         ____________|________            
+        S            |        |          
+   _____|___         |        |           
+  |         VP       |        S          
+  |      ___|___     |     ___|___        
+  NP    VP      |    |    VP      NP     
+  |     |       |    |    |    ___|___    
+  N     V      Adv  Conj  V  Det      N  
+  |     |       |    |    |   |       |   
+holmes sat     down and  lit his     pipe
+
+Noun Phrase Chunks
+9
+
+['i', 'had', 'a', 'country', 'walk', 'on', 'thursday', 'and', 'came', 'home', 'in', 'a', 'dreadful', 'mess']
+                                    S                                             
+      ______________________________|_____________________                         
+     |                                     |              S                       
+     |                                     |     _________|___                     
+     S                                     |    |             NP                  
+  ___|_________                            |    |     ________|___                 
+ |             VP                          |    |    |            PP              
+ |    _________|______________             |    |    |     _______|_____           
+ |   |         NP             PP           |    |    |    |             NP        
+ |   |    _____|_____      ___|_____       |    |    |    |    _________|______    
+ NP  |   |     AP    |    |         NP     |    VP   NP   |   |         AP     |  
+ |   |   |     |     |    |         |      |    |    |    |   |         |      |   
+ N   V  Det   Adj    N    P         N     Conj  V    N    P  Det       Adj     N  
+ |   |   |     |     |    |         |      |    |    |    |   |         |      |   
+ i  had  a  country walk  on     thursday and  came home  in  a      dreadful mess
+
+Noun Phrase Chunks
+                                    S                                             
+      ______________________________|_____________________                         
+     S                                     |              S                       
+  ___|_________                            |     _________|___                     
+ |             VP                          |    |             NP                  
+ |    _________|_____                      |    |     ________|___                 
+ |   |               NP                    |    |    |            PP              
+ |   |          _____|________             |    |    |     _______|_____           
+ |   |         NP             PP           |    |    |    |             NP        
+ |   |    _____|_____      ___|_____       |    |    |    |    _________|______    
+ NP  |   |     AP    |    |         NP     |    VP   NP   |   |         AP     |  
+ |   |   |     |     |    |         |      |    |    |    |   |         |      |   
+ N   V  Det   Adj    N    P         N     Conj  V    N    P  Det       Adj     N  
+ |   |   |     |     |    |         |      |    |    |    |   |         |      |   
+ i  had  a  country walk  on     thursday and  came home  in  a      dreadful mess
+
+Noun Phrase Chunks
+10
+
+['i', 'had', 'a', 'little', 'moist', 'red', 'paint', 'in', 'the', 'palm', 'of', 'my', 'hand']
+              S                                                         
+  ____________|____________________                                      
+ |                                 VP                                   
+ |    _____________________________|_________________________            
+ |   |                        NP                             |          
+ |   |                ________|_____________                 |           
+ |   |               NP                     |                |          
+ |   |    ___________|_____________         |                |           
+ |   |   |           AP            |        |                |          
+ |   |   |     ______|____         |        |                |           
+ |   |   |    |           AP       |        PP               PP         
+ |   |   |    |       ____|___     |     ___|___          ___|___        
+ NP  |   |    |      |        AP   |    |       NP       |       NP     
+ |   |   |    |      |        |    |    |    ___|___     |    ___|___    
+ N   V  Det  Adj    Adj      Adj   N    P  Det      N    P  Det      N  
+ |   |   |    |      |        |    |    |   |       |    |   |       |   
+ i  had  a  little moist     red paint  in the     palm  of  my     hand
+
+Noun Phrase Chunks
+              S                                                         
+  ____________|____________________                                      
+ |                                 VP                                   
+ |    _____________________________|________________                     
+ |   |               NP                             PP                  
+ |   |    ___________|_____________      ___________|____                
+ |   |   |           AP            |    |                NP             
+ |   |   |     ______|____         |    |        ________|___            
+ |   |   |    |           AP       |    |       |            PP         
+ |   |   |    |       ____|___     |    |       |         ___|___        
+ NP  |   |    |      |        AP   |    |       NP       |       NP     
+ |   |   |    |      |        |    |    |    ___|___     |    ___|___    
+ N   V  Det  Adj    Adj      Adj   N    P  Det      N    P  Det      N  
+ |   |   |    |      |        |    |    |   |       |    |   |       |   
+ i  had  a  little moist     red paint  in the     palm  of  my     hand
+
+Noun Phrase Chunks
+              S                                                         
+  ____________|____________________                                      
+ |                                 VP                                   
+ |    _____________________________|____                                 
+ |   |                                  NP                              
+ |   |                         _________|____________________            
+ |   |                        NP                             |          
+ |   |                ________|_____________                 |           
+ |   |               NP                     |                |          
+ |   |    ___________|_____________         |                |           
+ |   |   |           AP            |        |                |          
+ |   |   |     ______|____         |        |                |           
+ |   |   |    |           AP       |        PP               PP         
+ |   |   |    |       ____|___     |     ___|___          ___|___        
+ NP  |   |    |      |        AP   |    |       NP       |       NP     
+ |   |   |    |      |        |    |    |    ___|___     |    ___|___    
+ N   V  Det  Adj    Adj      Adj   N    P  Det      N    P  Det      N  
+ |   |   |    |      |        |    |    |   |       |    |   |       |   
+ i  had  a  little moist     red paint  in the     palm  of  my     hand
+
+Noun Phrase Chunks
+              S                                                         
+  ____________|____________________                                      
+ |                                 VP                                   
+ |    _____________________________|____                                 
+ |   |                                  NP                              
+ |   |                __________________|___________                     
+ |   |               NP                             PP                  
+ |   |    ___________|_____________      ___________|____                
+ |   |   |           AP            |    |                NP             
+ |   |   |     ______|____         |    |        ________|___            
+ |   |   |    |           AP       |    |       |            PP         
+ |   |   |    |       ____|___     |    |       |         ___|___        
+ NP  |   |    |      |        AP   |    |       NP       |       NP     
+ |   |   |    |      |        |    |    |    ___|___     |    ___|___    
+ N   V  Det  Adj    Adj      Adj   N    P  Det      N    P  Det      N  
+ |   |   |    |      |        |    |    |   |       |    |   |       |   
+ i  had  a  little moist     red paint  in the     palm  of  my     hand
+
+Noun Phrase Chunks
+Additional
+
