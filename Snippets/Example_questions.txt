@@ -1,0 +1,8 @@
+What are the types of supervised learning?
+When was Python 3.0 released?
+How do neurons connect in a neural network?
+When was Python 2.0 released?
+What is generalization in machine learning?
+How is probability applied in everyday life?
+What was the first artificial intelligence research project?
+What is rule-based machine learning?
