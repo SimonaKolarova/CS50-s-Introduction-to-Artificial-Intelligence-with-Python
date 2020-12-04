@@ -1,0 +1,3 @@
+A constraint satisfaction programme that selects suitable words from a dictionary to fill in a empty crossword structure so that each word is unique and meets both the unary constraints (<i>i.e.</i>, has the correct length) and binary contraits (<i>i.e.</i>, shares a character with an overlapping word in the correct overlap possition) of a given crossword structure.
+
+Example dictionaries and crossword structures are provided in `data`, <i>i.e.</i>, `wordsX.txt` and `strucureX.txt` files, respectively.
