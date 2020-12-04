@@ -2,4 +2,4 @@ Employing [IMDB's databases](https://www.imdb.com/interfaces/) of movies (> 340 
 
 A breadth-first search alrgorithm (`QueueFrontier`) is employed, however, a depth-first search (`StackFrontier`) was also considered in the development stage (and the code for it is provided).
 
-A demo of the programme is available here: https://youtu.be/oTRalBFbgU4
+A demo of the programme is available [here](https://youtu.be/oTRalBFbgU4).
