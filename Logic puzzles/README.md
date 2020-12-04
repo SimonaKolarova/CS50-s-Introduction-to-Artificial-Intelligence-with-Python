@@ -1,0 +1,1 @@
+A programme that solves 'Knighs or Knaves' logic puzzles (<i>i.e.</i>, determines whether a character is telling the truth or lying) based on a set of 'character-spoken' statements (<i>i.e.</i>, a knowledge database) using propositional logic. 
