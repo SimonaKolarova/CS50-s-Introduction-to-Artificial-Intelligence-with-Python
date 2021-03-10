@@ -1,0 +1,1 @@
+A knowledge-based agent that solves randomly generated `Python Pygame` minesweeper boards (of size 8 x 8 and containing 8 mines) using step-wise knowledge acquisition and inference. 
